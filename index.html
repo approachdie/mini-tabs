@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>WATCHFLIX</h1>
+
+      <div class="tabs">
+        <div class="tablist" role="tablist" aria-label="Streaming Content">
+          <button role="tab" aria-selected="true" id="series">📺 Series</button>
+          <button role="tab" aria-selected="false" id="movies">🎥 Movies</button>
+          <button role="tab" aria-selected="false" id="sports">⚽ Sports</button>
+        </div>
+        <div role="tabpanel" aria-labelledby="series">
+          <p>Best TV series!</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="movies" hidden>
+          <p>All movies</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="sports" hidden>
+          <p>Best TV live!</p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

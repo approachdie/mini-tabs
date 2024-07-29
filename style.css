@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: black;
+}
+
+.wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1300px;
+  align-items: center;
+}
+
+.tabs {
+  width: 500px;
+}
+
+.tablist {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 64px;
+  color: brown;
+}
+
+button {
+  background-color: rgb(212, 78, 78);
+  color: whitesmoke;
+  padding: 8px 12px;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  transition: all ease 0.3s;
+}
+
+button[aria-selected='true'] {
+  background: brown;
+}
+
+button:hover {
+  background: brown;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  margin: 0;
+  padding: 20px;
+  background: brown;
+}
